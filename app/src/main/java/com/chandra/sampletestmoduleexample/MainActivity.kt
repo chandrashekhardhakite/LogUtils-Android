@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
     val className:String = "MainActivity"
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
+        LogUtils.
         setContentView(R.layout.main_activity)
 
         if (savedInstanceState == null) {
